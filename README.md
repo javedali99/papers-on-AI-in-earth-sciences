@@ -1,7 +1,26 @@
-# A list of papers on AI in earth sciences
+# A List of Papers on AI in Earth Sciences 🌎
 
-Papers to read from the earth science community that use AI approaches.
+>📰 📄 Papers to read from the earth science community that use AI approaches.
 
+This repository contains a list of scientific papers from the Earth Sciences (Hydrology, Meteorology, Climate science etc.) that use AI (machine learning or deep learning) approaches. 
+
+If you have any comments or suggestions for additions or improvements for this repository, submit an issue or a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). 
+
+If you find these resources useful, please give this repository a star ⭐️. 
+
+ ---
+<!--
+# Content
+
+* [Hydrology](#hydrology)
+* [Meteorology](#meteorology)
+* [Climate science](#climate-science)
+* [Geology](#geology)
+* [Oceanography](#oceanography)
+* [Seismology](#seismology)
+
+---
+-->
 
 ## Hydrology
 
@@ -25,6 +44,44 @@ Papers to read from the earth science community that use AI approaches.
   
   >Predicting water table depth over the long-term in agricultural areas presents great challenges because these areas have complex and heterogeneous hydrogeological characteristics, boundary conditions, and human activities; also, nonlinear interactions occur among these factors. Therefore, a new time series model based on Long Short-Term Memory (LSTM), was developed in this study as an alternative to computationally expensive physical models. The proposed model is composed of an LSTM layer with another fully connected layer on top of it, with a dropout method applied in the first LSTM layer. In this study, the proposed model was applied and evaluated in five sub-areas of Hetao Irrigation District in arid northwestern China using data of 14 years (2000–2013). The proposed model uses monthly water diversion, evaporation, precipitation, temperature, and time as input data to predict water table depth. A simple but effective standardization method was employed to pre-process data to ensure data on the same scale. 14 years of data are separated into two sets: training set (2000–2011) and validation set (2012–2013) in the experiment. As expected, the proposed model achieves higher R2 scores (0.789–0.952) in water table depth prediction, when compared with the results of traditional feed-forward neural network (FFNN), which only reaches relatively low R2 scores (0.004–0.495), proving that the proposed model can preserve and learn previous information well. Furthermore, the validity of the dropout method and the proposed model’s architecture are discussed. Through experimentation, the results show that the dropout method can prevent overfitting significantly. In addition, comparisons between the R2 scores of the proposed model and Double-LSTM model (R2 scores range from 0.170 to 0.864), further prove that the proposed model’s architecture is reasonable and can contribute to a strong learning ability on time series data. Thus, one can conclude that the proposed model can serve as an alternative approach predicting water table depth, especially in areas where hydrogeological data are difficult to obtain.
   </details>
+ 
+- [Uncertainty estimation with deep learning for rainfall–runoff modeling](https://doi.org/10.5194/hess-26-1673-2022)
+   <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Deep learning is becoming an increasingly important way to produce accurate hydrological predictions across a wide range of spatial and temporal scales. Uncertainty estimations are critical for actionable hydrological prediction, and while standardized community benchmarks are becoming an increasingly important part of hydrological model development and research, similar tools for benchmarking uncertainty estimation are lacking. This contribution demonstrates that accurate uncertainty predictions can be obtained with deep learning. We establish an uncertainty estimation benchmarking procedure and present four deep learning baselines. Three baselines are based on mixture density networks, and one is based on Monte Carlo dropout. The results indicate that these approaches constitute strong baselines, especially the former ones. Additionally, we provide a post hoc model analysis to put forward some qualitative understanding of the resulting models. The analysis extends the notion of performance and shows that the model learns nuanced behaviors to account for different situations.
+  </details>
+
+- [Evaluation of artificial intelligence models for flood and drought forecasting in arid and tropical regions](https://doi.org/10.1016/j.envsoft.2021.105136)
+   <details>
+  <summary><b>Abstract</b></summary>
+  
+  >With the advancement of computer science, Artificial Intelligence (AI) is being incorporated into many fields to increase prediction performance. Disaster management is one of the main fields embracing the techniques of AI. It is essential to forecast the occurrence of disasters in advance to take the necessary mitigation steps and reduce damage to life and property. Therefore, many types of research are conducted to predict such events due to climate change in advance using hydrological, mathematical, and AI-based approaches. This paper presents a comparison of three major accepted AI-based approaches in flood and drought forecasting. In this study, fluvial floods are measured by the runoff change in rivers whereas meteorological droughts are measured using the Standard Precipitation Index (SPI). The performance of the Convolutional Neural Network (CNN), Long-Short Term Memory network (LSTM), and Wavelet decomposition functions combined with the Adaptive Neuro-Fuzzy Inference System (WANFIS) are compared in flood and drought forecasting, with five statistical performance criteria and accepted flood and drought indicators used for comparison, extending to two climatic regions: arid and tropical. The results suggest that the CNN performs best in flood forecasting with WANFIS for meteorological drought forecasting, regardless of the climate of the region under study. Besides, the results demonstrate the increased accuracy of the CNN in applications with multiple features in the input.
+  </details>
+  
+- [Long short-term memory neural network (LSTM-NN) for aquifer level time series forecasting using in-situ piezometric observations](https://doi.org/10.1016/j.jhydrol.2021.126800)
+   <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The application of neural networks (NN) in groundwater (GW) level prediction has been shown promising by previous works. Yet, previous works have relied on a variety of inputs, such as air temperature, pumping rates, precipitation, service population, and others. This work presents a long short-term memory neural network (LSTM-NN) for GW level forecasting using only previously observed GW level data as the input without resorting to any other type of data and information about a groundwater basin. This work applies the LSTM-NN for short-term and long-term GW level forecasting in the Edwards aquifer in Texas. The Adam optimizer is employed for training the LSTM-NN. The performance of the LSTM-NN was compared with that of a simple NN under 36 different scenarios with prediction horizons ranging from one day to three months, and covering several conditions of data availability. This paper’s results demonstrate the superiority of the LSTM-NN over the simple-NN in all scenarios and the success of the LSTM-NN in accurate GW level prediction. The LSTM-NN predicts one lag, up to four lags, and up to 26 lags ahead GW level with an accuracy (R2) of at least 99.89%, 99.00%, and 90.00%, respectively, over a testing period longer than 17 years of the most recent records. The quality of this work’s results demonstrates the capacity of machine learning (ML) in groundwater prediction, and affirms the importance of gathering high-quality, long-term, GW level data for predicting key groundwater characteristics useful in sustainable groundwater management.
+  </details>
+  
+- [Groundwater level forecasting with artificial neural networks: a comparison of long short-term memory (LSTM), convolutional neural networks (CNNs), and non-linear autoregressive networks with exogenous input (NARX)](https://hess.copernicus.org/articles/25/1671/2021/)
+   <details>
+  <summary><b>Abstract</b></summary>
+  
+  >It is now well established to use shallow artificial neural networks (ANNs) to obtain accurate and reliable groundwater level forecasts, which are an important tool for sustainable groundwater management. However, we observe an increasing shift from conventional shallow ANNs to state-of-the-art deep-learning (DL) techniques, but a direct comparison of the performance is often lacking. Although they have already clearly proven their suitability, shallow recurrent networks frequently seem to be excluded from the study design due to the euphoria about new DL techniques and its successes in various disciplines. Therefore, we aim to provide an overview on the predictive ability in terms of groundwater levels of shallow conventional recurrent ANNs, namely non-linear autoregressive networks with exogenous input (NARX) and popular state-of-the-art DL techniques such as long short-term memory (LSTM) and convolutional neural networks (CNNs). We compare the performance on both sequence-to-value (seq2val) and sequence-to-sequence (seq2seq) forecasting on a 4-year period while using only few, widely available and easy to measure meteorological input parameters, which makes our approach widely applicable. Further, we also investigate the data dependency in terms of time series length of the different ANN architectures. For seq2val forecasts, NARX models on average perform best; however, CNNs are much faster and only slightly worse in terms of accuracy. For seq2seq forecasts, mostly NARX outperform both DL models and even almost reach the speed of CNNs. However, NARX are the least robust against initialization effects, which nevertheless can be handled easily using ensemble forecasting. We showed that shallow neural networks, such as NARX, should not be neglected in comparison to DL techniques especially when only small amounts of training data are available, where they can clearly outperform LSTMs and CNNs; however, LSTMs and CNNs might perform substantially better with a larger dataset, where DL really can demonstrate its strengths, which is rarely available in the groundwater domain though.
+  </details>
+  
+- [Uncertainty assessment of LSTM based groundwater level predictions](https://doi.org/10.1080/02626667.2022.2046755)
+   <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Due to the underlying uncertainty in groundwater level (GWL) modelling, point prediction of GWLs does not provide sufficient information. Moreover, the insufficiency of data on subjects such as illegal exploitation wells and wastewater pounds, which are untraceable, underlines the importance of evolved uncertainty in the groundwaters of the Ardabil plain. Thus, estimating prediction intervals (PIs) for groundwater modelling can be an important step. In this paper, PIs were estimated for GWLs of selected piezometers of the Ardebil plain in Iran using the artificial neural network (ANN)-based lower upper bound estimation (LUBE) method. The classic feedforward neural network (FFNN) and deep-learning-based long short-term memory (LSTM) were used. GWL data of piezometers and hydrological data (1992–2018) were applied for modelling. The results indicate that LSTM outperforms FFNN in both PI and point prediction tasks. LSTM-based LUBE was found to be superior to FFNN-based LUBE, providing an average 25% lower coverage width criterion (CWC). PIs estimated for piezometers with high transmissivity resulted in 50% lower CWC than PIs estimated for piezometers in areas with lower transmissivity.
+  </details>
+  
+  
+  
   
 <br>
   
