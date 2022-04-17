@@ -92,6 +92,129 @@ If you find these resources useful, please give this repository a star ⭐️.
   >Due to the underlying uncertainty in groundwater level (GWL) modelling, point prediction of GWLs does not provide sufficient information. Moreover, the insufficiency of data on subjects such as illegal exploitation wells and wastewater pounds, which are untraceable, underlines the importance of evolved uncertainty in the groundwaters of the Ardabil plain. Thus, estimating prediction intervals (PIs) for groundwater modelling can be an important step. In this paper, PIs were estimated for GWLs of selected piezometers of the Ardebil plain in Iran using the artificial neural network (ANN)-based lower upper bound estimation (LUBE) method. The classic feedforward neural network (FFNN) and deep-learning-based long short-term memory (LSTM) were used. GWL data of piezometers and hydrological data (1992–2018) were applied for modelling. The results indicate that LSTM outperforms FFNN in both PI and point prediction tasks. LSTM-based LUBE was found to be superior to FFNN-based LUBE, providing an average 25% lower coverage width criterion (CWC). PIs estimated for piezometers with high transmissivity resulted in 50% lower CWC than PIs estimated for piezometers in areas with lower transmissivity.
   </details>
   
+    
+- [A Machine Learner’s Guide to Streamflow Prediction](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_18.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Although often subconsciously, many people deal with water-related issues on
+a daily basis. For instance, many regions rely on hydropower plants to produce
+their electricity, and, at the extreme, floods and droughts pose one of the big environmental threats of climate change. At the same time, many machine learning
+researchers have started to look beyond their field and wish to contribute to environmental issues of our time. The modeling of streamflow—the amount of water
+that flows through a river cross-section at a given time—is a natural starting point
+to such contributions: It encompasses a variety of tasks that will be familiar to
+machine learning researchers, but it is also a vital component of flood and drought
+prediction (among other applications). Moreover, researchers can draw upon large
+open datasets, sensory networks, and remote sensing data to train their models. As
+a getting-started resource, this guide provides a brief introduction to streamflow
+modeling for machine learning researchers and highlights a number of possible
+research directions where machine learning could advance the domain.
+  </details>
+  
+- [A Deep Learning Architecture for Conservative Dynamical Systems: Application to Rainfall-Runoff Modeling]()
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The most accurate and generalizable rainfall-runoff models produced by the hydrological sciences community to-date are based on deep learning, and in particular, on
+Long Short Term Memory networks (LSTMs). Although LSTMs have an explicit
+state space and gates that mimic input-state-output relationships, these models are
+not based on physical principles. We propose a deep learning architecture that is
+based on the LSTM and obeys conservation principles. The model is benchmarked
+on the mass-conservation problem of simulating streamflow.
+  </details>
+   
+    
+- [Pix2Streams: Dynamic Hydrology Maps from Satellite-LiDAR Fusion](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_39.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Where are the Earth’s streams flowing right now? Inland surface waters expand
+with floods and contract with droughts, so there is no one map of our streams.
+Current satellite approaches are limited to monthly observations that map only
+the widest streams. These are fed by smaller tributaries that make up much of
+the dendritic surface network but whose flow is unobserved. A complete map of
+our daily waters can give us an early warning for where droughts are born: the
+receding tips of the flowing network. Mapping them over years can give us a map
+of impermanence of our waters, showing where to expect water, and where not to.
+To that end, we feed the latest high-res sensor data to multiple deep learning models
+in order to map these flowing networks every day, stacking the times series maps
+over many years. Specifically, i) we enhance water segmentation to 50 cm/pixel
+resolution, a 60× improvement over previous state-of-the-art results. Our U-Net
+trained on 30-40cm WorldView3 images can detect streams as narrow as 1-3m
+(30-60× over SOTA). Our multi-sensor, multi-res variant, WasserNetz, fuses a
+multi-day window of 3m PlanetScope imagery with 1m LiDAR data, to detect
+streams 5-7m wide. Both U-Nets produce a water probability map at the pixel-level.
+ii) We integrate this water map over a DEM-derived synthetic valley network map
+to produce a snapshot of flow at the stream level. iii) We apply this pipeline,
+which we call Pix2Streams, to a 2-year daily PlanetScope time-series of three
+watersheds in the US to produce the first high-fidelity dynamic map of stream flow
+frequency. The end result is a new map that, if applied at the national scale, could
+fundamentally improve how we manage our water resources around the world.
+  </details>    
+    
+- [Efficient Reservoir Management through Deep Reinforcement Learning](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_36.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Dams impact downstream river dynamics through flow regulation and disruption
+of upstream-downstream linkages. However, current dam operation is far from satisfactory due to the inability to respond the complicated and uncertain dynamics of
+the upstream-downstream system and various usages of the reservoir. Even further,
+the insuitable dam operation can cause floods in downstream areas. Therefore, we
+leverage reinforcement learning (RL) methods to compute efficient dam operation
+guidelines in this work. Specifically, we build offline simulators with real data
+and different mathematical models for the upstream inflow, i.e., generalized least
+square (GLS) and dynamic linear model (DLM), then use the simulator to train
+the state-of-the-art RL algorithms, including DDPG, TD3 and SAC. Experiments
+show that the simulator with DLM can efficiently model the inflow dynamics in
+the upstream and the dam operation policies trained by RL algorithms significantly
+outperform the human-generated policy.
+  </details>    
+    
+- [Inductive Predictions of Extreme Hydrologic Events in The Wabash River Watershed](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_34.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >We present a machine learning method to predict extreme hydrologic events from
+spatially and temporally varying hydrological and meteorological data. We used a
+timestep reduction technique to reduce the computational and memory requirements and
+trained a bidirection LSTM network to predict soil water and stream flow from time
+series data observed and simulated over eighty years in the Wabash River Watershed. We
+show that our simple model can be trained much faster than complex attention networks
+such as GeoMAN without sacrificing accuracy. Based on the predicted values of soil
+water and stream flow, we predict the occurrence and severity of extreme hydrologic
+events such as droughts. We also demonstrate that extreme events can be predicted in
+geographical locations separate from locations observed during the training process.
+This spatially-inductive setting enables us to predict extreme events in other areas in the
+US and other parts of the world using our model trained with the Wabash Basin data.
+  </details>    
+    
+
+- [A Comparison of Data-Driven Models for Predicting Stream Water Temperature](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_23.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Changes to the Earth’s climate are expected to negatively impact water resources in
+the future. It is important to have accurate modelling of river flow and water quality
+to make optimal decisions for water management. Machine learning and deep
+learning models have become promising methods for making such hydrological
+predictions. Using these models, however, requires careful consideration both
+of data constraints and of model complexity for a given problem. Here, we use
+machine learning (ML) models to predict monthly stream water temperature records
+at three monitoring locations in the Northwestern United States with long-term
+datasets, using meteorological data as predictors. We fit three ML models: a
+Multiple Linear Regression, a Random Forest Regression, and a Support Vector
+Regression, and compare them against two baseline models: a persistence model
+and historical model. We show that all three ML models are reasonably able to
+predict mean monthly stream temperatures with root mean-squared errors (RMSE)
+ranging from 0.63-0.91 ◦C. Of the three ML models, Support Vector Regression
+performs the best with an error of 0.63-0.75 ◦C. However, all models perform
+poorly on extreme values of water temperature. We identify the need for machine
+learning approaches for predicting extreme values for variables such as water
+temperature, since it has significant implications for stream ecosystems and biota.
+  </details>    
+      
+    
+    
  <br>
     
 ## Ecology
@@ -184,15 +307,120 @@ and formulating breeding strategies to circumvent these climatic challenges.
 <br>    
     
 ## Meteorology 
- >coming soon
+
+- [Identifying Opportunities for Skillful Weather Prediction with Interpretable Neural Networks](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_11.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The atmosphere is chaotic. This fundamental property of the climate system makes
+forecasting weather incredibly challenging: it’s impossible to expect weather models to ever provide perfect predictions of the Earth system beyond timescales of
+approximately 2 weeks. Instead, atmospheric scientists look for specific states of
+the climate system that lead to more predictable behaviour than others. Here, we
+demonstrate how neural networks can be used, not only to leverage these states to
+make skillful predictions, but moreover to identify the climatic conditions that lead
+to enhanced predictability. Furthermore, we employ a neural network interpretability method called “layer-wise relevance propagation” to create heatmaps of the
+regions in the input most relevant for a network’s output. For Earth scientists, these
+relevant regions for the neural network’s prediction are by far the most important
+product of our study: they provide scientific insight into the physical mechanisms
+that lead to enhanced weather predictability. While we demonstrate our approach
+for the atmospheric science domain, this methodology is applicable to a large range
+of geoscientific problems.
+  </details>
  
+- [Spatio-temporal segmentation and tracking of weather patterns with light-weight Neural Networks](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_55.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The reliable detection and tracking of weather patterns is a necessary first step
+towards characterizing extreme weather events in a warming world. Recent work
+[Prabhat et al.(2020)] has shown that weather pattern recognition by deep neural
+networks can work remarkably better than feature engineering, such as hand-crafted
+heuristics, used traditionally in climate science. As an extension of this work, we
+perform Deep Learning - based semantic segmentation of atmospheric rivers and
+tropical cyclones on the expert-annotated ClimateNet data set, and track individual
+events using a spatio-temporal overlapping approach. Our approach is fast and
+scalable to more data modalities and event types, motivating expansion of the
+ClimateNet dataset and development of novel deep learning architectures. Furthermore, we show that the spatio-temporal tracking capability enables investigating a
+host of important climate science research questions pertaining to the behavior of
+extreme weather events in a warming world.
+  </details> 
  
- 
+- [Leveraging Lightning with Convolutional Recurrent AutoEncoder and ROCKET for Severe Weather Detection](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_16.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Previous studies have shown that increases in flash rates detected in ground-based
+lightning data can be a precursor to severe weather hazards. Lightning data from
+the Geostationary Lightning Mapper (GLM) aboard the GOES-R satellite is not
+part of an operational model used by forecasters and is underutilized in severe
+storm research. The Advanced Baseline Imager’s (ABI) visible imagery also shows
+cloud features, such as overshooting tops and above-anvil cirrus plumes, which
+have been associated with severe weather hazards. We introduce a generative video
+frame prediction methodology using a convolutional recurrent autoencoder, to
+leverage these spatio-temporal patterns in GLM and ABI, along with ground-based
+severe weather data. An initial case study is presented and contrasted with a time
+series classification of GLM data. Through this study, we seek to highlight the
+value of GLM data to assist meteorologists in time-constrained nowcasting (15-30
+minute lead time) of severe hazards.
+  </details>    
+    
+- [Towards Data-Driven Physics-Informed Global Precipitation Forecasting from Satellite Imagery](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_20.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Under the effects of global warming, extreme events such as floods and droughts
+are increasing in frequency and intensity. This trend directly affects communities
+and make all the more urgent widening the access to accurate precipitation forecasting systems for disaster preparedness. Nowadays, weather forecasting relies on
+numerical models necessitating massive computing resources that most developing
+countries cannot afford. Machine learning approaches are still in their infancy but
+already show the promise for democratizing weather predictions, by leveraging any
+data source and requiring less compute. In this work, we propose a methodology
+for data-driven and physics-aware global precipitation forecasting from satellite
+imagery. To fully take advantage of the available data, we design the system as
+three elements: 1. The atmospheric state is estimated from recent satellite data.
+2. The atmospheric state is propagated forward in time. 3. The atmospheric state is
+used to derive the precipitation intensity within a nearby time interval. In particular,
+our use of stochastic methods for forecasting the atmospheric state represents a
+novel application in this domain.
+  </details>
+    
+- [Temporally Weighting Machine Learning Models for High-Impact Severe Hail Prediction](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_35.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >We explore a new method to improve machine-learning (ML) based severe hail
+predictions. A temporal weighting scheme allows the random forest models to
+increase importance of relevant feature data while maintaining general information
+about the problem domain from other feature data. We show that the weighting
+scheme improves forecast skill and forecaster rust. With a flexible design, this
+method can produce localized forecasts under multiple different scenarios without
+increasing computational expense.
+  </details>   
+    
+    
  <br>
     
 ## Climate Science
  
- >coming soon
+- [Bias correction of global climate model using machine learning algorithms to determine meteorological variables in different tropical climates of Indonesia](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_10.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Accurate and localized forecasting of climate variables are important especially
+in the face of uncertainty imposed by climate change. However, the data used
+for prediction are either incomplete at the local level or inaccurate because the
+simulation models do not explicitly consider local contexts and extreme events.
+This paper, therefore, attempts to bridge this gap by applying tree-based machine
+learning algorithms to correct biases inherent in simulated, reanalysed climate
+model against local climate observations in differing tropical climate subsystems
+of Indonesia. The new observation datasets were compiled from various weather
+stations and agencies across the country. Our results show that regions of tropical
+savanna experience greatest bias corrections, followed by the tropical monsoon
+and tropical forest. Finally, to account for extreme events, we embed regional
+large-scale climate events into these models. In particular, we incorporate ENSO to
+account for the residual error of extreme rainfall observations, and have achieved
+an improved bias-correction of 36.67%.
+  </details>
   
   
 <br>
