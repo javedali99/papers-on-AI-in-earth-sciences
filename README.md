@@ -25,6 +25,7 @@ If you find these resources useful, please give this repository a star ⭐️.
 ### Table of Content
 
 * [Hydrology](#hydrology)
+* [Ecology](#ecology)
 * [Meteorology](#meteorology)
 * [Climate Science](#climate-science)
 * [How To Read a Paper](#how-to-read-a-paper)
@@ -92,6 +93,94 @@ If you find these resources useful, please give this repository a star ⭐️.
   </details>
   
  <br>
+    
+## Ecology
+    
+- [Graph Learning for Inverse Landscape Genetics](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_32.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Inferring unknown edges from data at a graph’s nodes is a common problem across statistics and machine learning. We study a version that arises in the field of landscape genetics, where genetic similarity between organisms living in a heterogeneous landscape is explained by a graph that encodes the ease of dispersal through that landscape. Our main contribution is an efficient algorithm for inverse landscape genetics, the task of inferring edges in this graph based on the similarity of genetic data from populations at different nodes. This problem is important in discovering impediments to dispersal that threaten biodiversity and species survival. Drawing on influential work that models dispersal using graph effective resistances, we reduce the inverse landscape genetics problem to that of inferring graph edges from noisy measurements of these resistances. Then, building on edgeinference techniques for social networks, we develop an efficient first-order optimization method for solving the problem, which significantly outperforms existing techniques in experiments on synthetic and real genetic data.
+  </details>
+ 
+- [Segmentation of Soil Degradation Sites in Swiss Alpine Grasslands with Deep Learning](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_40.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Soil degradation is an important environmental problem which affects the Alpine
+ecosystem and agriculture. Research results suggest that soil degradation in Swiss
+Alpine grasslands has increased in recent years and it is expected to increase further
+due to climate and land-use change. However, reliably quantifying the increase
+in spatial extent of soil degradation is a challenging task. Although methods like
+Object-based Image Analysis (OBIA) can provide precise detection of erosion
+sites, an efficient large scale investigation is not feasible due to the labour intensive
+nature and lack of transferability of the method. In this study, we overcome these
+limitations by adapting the fully convolutional neural network U-Net trained on
+high-quality training data provided by OBIA to enable efficient segmentation of
+erosion sites in high-resolution aerial images. We find that segmentation results
+of both methods, OBIA and U-Net, are generally in good agreement, but display
+method specific difference, with an overall precision of 73% and recall of 84%.
+Importantly, both methods indicate an increase in soil degradation for a case study
+region over a 16-year period of 167% and 201% for OBIA and U-Net, respectively.
+Furthermore, we show that the U-Net approach transfers well to new regions
+(within our study region) and data from subsequent years, even when trained on a
+comparably small training dataset. Thus the proposed approach enables large scale
+analysis in Swiss Alpine grasslands and provides a tool for reliable assessment of
+temporal changes in soil degradation.
+  </details>
+ 
+- [Meta-modeling large-scale spatial data using Convolutional Neural Networks](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_12.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Species connectivity models play an important role in ecological research and
+biodiversity assessment. Unfortunately, simulations of connectivity models are
+typically slow, therefore preventing the rapid iteration and updates of models when
+evaluating different scenarios.
+In this pilot study, we present the proof of concept of utilizing Deep Learning
+methodologies as a novel approach in ecology for significantly reducing the prediction rate of species connectivity models.
+  </details>
+    
+- [Understanding Climate Impacts on Vegetation with Gaussian Processes in Granger Causality](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_26.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Global warming is leading to unprecedented changes in our planet, with great
+societal, economical and environmental implications, especially with the growing
+demand of biofuels and food. Assessing the impact of climate on vegetation is
+of pressing need. We approached the attribution problem with a novel nonlinear
+Granger causal (GC) methodology and used a large data archive of remote sensing
+satellite products, environmental and climatic variables spatio-temporally gridded
+over more than 30 years. We generalize kernel Granger causality by considering
+the variables cross-relations explicitly in Hilbert spaces, and use the covariance in
+Gaussian processes. The method generalizes the linear and kernel GC methods,
+and comes with tighter bounds of performance based on Rademacher complexity.
+Spatially-explicit global Granger footprints of precipitation and soil moisture on
+vegetation greenness are identified more sharply than previous GC methods.
+  </details>
+    
+ - [Interpreting the Impact of Weather on Crop Yield Using Attention](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_54.pdf)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Accurate prediction of crop yield supported by scientific and domain-relevant
+interpretations can improve agricultural breeding by providing monitoring across
+diverse climatic conditions. The use of this information in plant breeding can help
+provide protection against weather challenges to crop production, including erratic
+rainfall and temperature variations. In addition to isolating the important time-steps,
+researchers are interested to understand the effect of different weather variables on
+crop yield. In this paper, we propose a novel attention-based model that can learn
+the most significant variables across different weeks in the crop growing season
+and highlight the most important time-steps (weeks) to predict the annual crop
+yield. We demonstrate our model’s performance on a dataset based on historical
+performance records from Uniform Soybean Tests (UST) in North America. The
+interpretations provided by our model can help in understanding the impact of
+weather variability on agricultural production in the presence of climate change
+and formulating breeding strategies to circumvent these climatic challenges.
+  </details>   
+    
+    
+<br>    
     
 ## Meteorology 
  >coming soon
