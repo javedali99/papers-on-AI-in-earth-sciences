@@ -259,8 +259,19 @@ temperature, since it has significant implications for stream ecosystems and bio
   >The Soil Moisture Active Passive (SMAP) mission has delivered valuable sensing of surface soil moisture since 2015. However, it has a short time span and irregular revisit schedules. Utilizing a state-of-the-art time series deep learning neural network, Long Short-Term Memory (LSTM), we created a system that predicts SMAP level-3 moisture product with atmospheric forcings, model-simulated moisture, and static physiographic attributes as inputs. The system removes most of the bias with model simulations and improves predicted moisture climatology, achieving small test root-mean-square errors (<0.035) and high-correlation coefficients >0.87 for over 75% of Continental United States, including the forested southeast. As the first application of LSTM in hydrology, we show the proposed network avoids overfitting and is robust for both temporal and spatial extrapolation tests. LSTM generalizes well across regions with distinct climates and environmental settings. With high fidelity to SMAP, LSTM shows great potential for hindcasting, data assimilation, and weather forecasting.
   </details>    
     
-    
-    
+- [Estimating surface soil moisture from SMAP observations using a Neural Network technique](https://doi.org/10.1016/j.rse.2017.10.045)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >A Neural Network (NN) algorithm was developed to estimate global surface soil moisture for April 2015 to March 2017 with a 2–3 day repeat frequency using passive microwave observations from the Soil Moisture Active Passive (SMAP) satellite, surface soil temperatures from the NASA Goddard Earth Observing System Model version 5 (GEOS-5) land modeling system, and Moderate Resolution Imaging Spectroradiometer-based vegetation water content. The NN was trained on GEOS-5 soil moisture target data, making the NN estimates consistent with the GEOS-5 climatology, such that they may ultimately be assimilated into this model without further bias correction. Evaluated against in situ soil moisture measurements, the average unbiased root mean square error (ubRMSE), correlation and anomaly correlation of the NN retrievals were 0.037 m3m −3, 0.70 and 0.66, respectively, against SMAP core validation site measurements and 0.026 m3m −3, 0.58 and 0.48, respectively, against International Soil Moisture Network (ISMN) measurements. At the core validation sites, the NN retrievals have a significantly higher skill than the GEOS-5 model estimates and a slightly lower correlation skill than the SMAP Level-2 Passive (L2P) product. The feasibility of the NN method was reflected by a lower ubRMSE compared to the L2P retrievals as well as a higher skill when ancillary parameters in physically-based retrievals were uncertain. Against ISMN measurements, the skill of the two retrieval products was more comparable. A triple collocation analysis against Advanced Microwave Scanning Radiometer 2 (AMSR2) and Advanced Scatterometer (ASCAT) soil moisture retrievals showed that the NN and L2P retrieval errors have a similar spatial distribution, but the NN retrieval errors are generally lower in densely vegetated regions and transition zones.
+  </details>    
+  
+         
+         
+         
+         
+         
+         
  <br>
     
 ## Ecology
