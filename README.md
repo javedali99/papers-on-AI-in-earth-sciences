@@ -159,8 +159,8 @@ Spatially-explicit global Granger footprints of precipitation and soil moisture 
 vegetation greenness are identified more sharply than previous GC methods.
   </details>
     
- - [Interpreting the Impact of Weather on Crop Yield Using Attention](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_54.pdf)
-     <details>
+- [Interpreting the Impact of Weather on Crop Yield Using Attention](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_54.pdf)
+  <details>
   <summary><b>Abstract</b></summary>
   
   >Accurate prediction of crop yield supported by scientific and domain-relevant
@@ -177,6 +177,7 @@ performance records from Uniform Soybean Tests (UST) in North America. The
 interpretations provided by our model can help in understanding the impact of
 weather variability on agricultural production in the presence of climate change
 and formulating breeding strategies to circumvent these climatic challenges.
+      
   </details>   
     
     
