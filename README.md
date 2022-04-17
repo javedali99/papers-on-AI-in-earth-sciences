@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/15319503/163697964-5a9958f1-2f30-4da6-8cec-53ecc82965fe.png" alt="ai-earth-sciences" width="150" height="150">
   </a>
   <h2 align="center">Papers on AI in Earth Sciences 🌎</h2>
-  <p align="center">📰 📄 A list of research papers from the earth science community that use AI approaches.</p>
+  <p align="center">📰 📄 A collection of research papers from the earth science community that use AI approaches.</p>
   <p align="center">
       <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
   <a href="https://www.linkedin.com/in/javedali18"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn@javedali"></a>
