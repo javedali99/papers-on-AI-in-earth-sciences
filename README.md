@@ -1,6 +1,18 @@
-# A List of Papers on AI in Earth Sciences 🌎
 
->📰 📄 Papers to read from the earth science community that use AI approaches.
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/15319503/163697964-5a9958f1-2f30-4da6-8cec-53ecc82965fe.png" alt="ai-earth-sciences" width="150" height="150">
+  </a>
+  <h2 align="center">Papers on AI in Earth Sciences 🌎</h2>
+  <p align="center">📰 📄 A list of research papers from the earth science community that use AI approaches.</p>
+  <p align="center">
+      <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
+  <a href="https://www.linkedin.com/in/javedali18"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn@javedali"></a>
+  <a href="mailto:javedali28@gmail.com"><img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" alt="javedali28@gmail.com"></a>
+  </p>
+  <br>
+</p>
+
+
 
 This repository contains a list of scientific papers from the Earth Sciences (Hydrology, Meteorology, Climate science etc.) that use AI (machine learning or deep learning) approaches. 
 
@@ -9,18 +21,17 @@ If you have any comments or suggestions for additions or improvements for this r
 If you find these resources useful, please give this repository a star ⭐️. 
 
  ---
-<!--
+
 # Content
 
 * [Hydrology](#hydrology)
 * [Meteorology](#meteorology)
-* [Climate science](#climate-science)
-* [Geology](#geology)
-* [Oceanography](#oceanography)
-* [Seismology](#seismology)
+* [Climate Science](#climate-science)
+* [How To Read a Paper](#how-to-read-a-paper)
+
 
 ---
--->
+
 
 ## Hydrology
 
@@ -81,6 +92,15 @@ If you find these resources useful, please give this repository a star ⭐️.
   </details>
   
   
+## Meteorology 
+ >coming soon
+ 
+ 
+ 
+ 
+## Climate Science
+ 
+ >coming soon
   
   
 <br>
