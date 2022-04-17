@@ -309,6 +309,16 @@ analysis in Swiss Alpine grasslands and provides a tool for reliable assessment 
 temporal changes in soil degradation.
   </details>
  
+- [Crop type mapping without field-level labels: Random forest transfer and unsupervised clustering techniques](https://doi.org/10.1016/j.rse.2018.12.026)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Crop type mapping at the field level is necessary for a variety of applications in agricultural monitoring and food security. As remote sensing imagery continues to increase in spatial and temporal resolution, it is becoming an increasingly powerful raw input from which to create crop type maps. Still, automated crop type mapping remains constrained by a lack of field-level crop labels for training supervised classification models. In this study, we explore the use of random forests transferred across geographic distance and time and unsupervised methods in conjunction with aggregate crop statistics for crop type mapping in the US Midwest, where we simulated the label-poor setting by depriving the models of labels in various states and years. We validated our methodology using available 30 m spatial resolution crop type labels from the US Department of Agriculture's Cropland Data Layer (CDL). Using Google Earth Engine, we computed Fourier transforms (or harmonic regressions) on the time series of Landsat Surface Reflectance and derived vegetation indices, and extracted the coefficients as features for machine learning models. We found that random forests trained on regions and years similar in growing degree days (GDD) transfer to the target region with accuracies consistently exceeding 80%. Accuracies decrease as differences in GDD expand. Unsupervised Gaussian mixture models (GMM) with class labels derived using county-level crop statistics classify crops less consistently but require no field-level labels for training. GMM achieves over 85% accuracy in states with low crop diversity (Illinois, Iowa, Indiana, Nebraska), but performs sometimes no better than random when high crop diversity interferes with clustering (North Dakota, South Dakota, Wisconsin, Michigan). Under the appropriate conditions, these methods offer options for field-resolution crop type mapping in regions around the world with few or no ground labels.
+  </details>         
+         
+         
+         
+         
 - [Meta-modeling large-scale spatial data using Convolutional Neural Networks](https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_12.pdf)
      <details>
   <summary><b>Abstract</b></summary>
@@ -360,7 +370,11 @@ and formulating breeding strategies to circumvent these climatic challenges.
       
   </details>   
     
-    
+
+         
+         
+         
+         
 <br>    
     
 ## Meteorology 
@@ -446,7 +460,10 @@ novel application in this domain.
   
   >We explore a new method to improve machine-learning (ML) based severe hail predictions. A temporal weighting scheme allows the random forest models to increase importance of relevant feature data while maintaining general information about the problem domain from other feature data. We show that the weighting scheme improves forecast skill and forecaster rust. With a flexible design, this method can produce localized forecasts under multiple different scenarios without increasing computational expense.
   </details>   
-    
+ 
+         
+         
+         
     
  <br>
     
@@ -472,7 +489,19 @@ account for the residual error of extreme rainfall observations, and have achiev
 an improved bias-correction of 36.67%.
   </details>
   
+- [Deep learning to represent subgrid processes in climate models](https://www.pnas.org/doi/full/10.1073/pnas.1810286115)
+     <details>
+  <summary><b>Abstract</b></summary>
   
+  >The representation of nonlinear subgrid processes, especially clouds, has been a major source of uncertainty in climate models for decades. Cloud-resolving models better represent many of these processes and can now be run globally but only for short-term simulations of at most a few years because of computational limitations. Here we demonstrate that deep learning can be used to capture many advantages of cloud-resolving modeling at a fraction of the computational cost. We train a deep neural network to represent all atmospheric subgrid processes in a climate model by learning from a multiscale model in which convection is treated explicitly. The trained neural network then replaces the traditional subgrid parameterizations in a global general circulation model in which it freely interacts with the resolved dynamics and the surface-flux scheme. The prognostic multiyear simulations are stable and closely reproduce not only the mean climate of the cloud-resolving simulation but also key aspects of variability, including precipitation extremes and the equatorial wave spectrum. Furthermore, the neural network approximately conserves energy despite not being explicitly instructed to. Finally, we show that the neural network parameterization generalizes to new surface forcing patterns but struggles to cope with temperatures far outside its training manifold. Our results show the feasibility of using deep learning for climate model parameterization. In a broader context, we anticipate that data-driven Earth system model development could play a key role in reducing climate prediction uncertainty in the coming decade.
+  </details>         
+         
+         
+         
+         
+         
+         
+         
 <br>
   
 ## How To Read a Paper
