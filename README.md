@@ -377,8 +377,7 @@ already show the promise for democratizing weather predictions, by leveraging an
 data source and requiring less compute. In this work, we propose a methodology
 for data-driven and physics-aware global precipitation forecasting from satellite
 imagery. To fully take advantage of the available data, we design the system as
-three elements: 1. The atmospheric state is estimated from recent satellite data.
-2. The atmospheric state is propagated forward in time. 3. The atmospheric state is
+three elements: 1. The atmospheric state is estimated from recent satellite data. 2. The atmospheric state is propagated forward in time. 3. The atmospheric state is
 used to derive the precipitation intensity within a nearby time interval. In particular,
 our use of stochastic methods for forecasting the atmospheric state represents a
 novel application in this domain.
@@ -388,13 +387,7 @@ novel application in this domain.
      <details>
   <summary><b>Abstract</b></summary>
   
-  >We explore a new method to improve machine-learning (ML) based severe hail
-predictions. A temporal weighting scheme allows the random forest models to
-increase importance of relevant feature data while maintaining general information
-about the problem domain from other feature data. We show that the weighting
-scheme improves forecast skill and forecaster rust. With a flexible design, this
-method can produce localized forecasts under multiple different scenarios without
-increasing computational expense.
+  >We explore a new method to improve machine-learning (ML) based severe hail predictions. A temporal weighting scheme allows the random forest models to increase importance of relevant feature data while maintaining general information about the problem domain from other feature data. We show that the weighting scheme improves forecast skill and forecaster rust. With a flexible design, this method can produce localized forecasts under multiple different scenarios without increasing computational expense.
   </details>   
     
     
