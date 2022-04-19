@@ -274,6 +274,13 @@ temperature, since it has significant implications for stream ecosystems and bio
   </details>         
          
          
+- [Enabling Smart Dynamical Downscaling of Extreme Precipitation Events With Machine Learning](https://doi.org/10.1029/2020GL090309)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The projection of extreme convective precipitation by global climate models (GCM) exhibits significant uncertainty due to coarse resolutions. Direct dynamical downscaling (DDD) of regional climate at kilometer-scale resolutions provides valuable insight into extreme precipitation changes, but its computational expense is formidable. Here we document the effectiveness of machine learning to enable smart dynamical downscaling (SDD), which selects a small subset of GCM data to conduct downscaling. Trained with data for three subtropical/tropical regions, convolutional neural networks (CNNs) retained 92% to 98% of extreme precipitation events (rain intensity higher than the 99th percentile) while filtering out 88% to 95% of circulation data. When applied to reanalysis data sets differing from training data, the CNNs' skill in retaining extremes decreases modestly in subtropical regions but sharply in the deep tropics. Nonetheless, one of the CNNs can still retain 62% of all extreme events in the deep tropical region in the worst case.
+  </details>  
+         
          
          
          
@@ -502,7 +509,14 @@ an improved bias-correction of 36.67%.
   </details>         
          
          
+- [Using Machine Learning to Parameterize Moist Convection: Potential for Modeling of Climate, Climate Change, and Extreme Events](https://doi.org/10.1029/2018MS001351)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >The parameterization of moist convection contributes to uncertainty in climate modeling and numerical weather prediction. Machine learning (ML) can be used to learn new parameterizations directly from high-resolution model output, but it remains poorly understood how such parameterizations behave when fully coupled in a general circulation model (GCM) and whether they are useful for simulations of climate change or extreme events. Here we focus on these issues using idealized tests in which an ML-based parameterization is trained on output from a conventional parameterization and its performance is assessed in simulations with a GCM. We use an ensemble of decision trees (random forest) as the ML algorithm, and this has the advantage that it automatically ensures conservation of energy and nonnegativity of surface precipitation. The GCM with the ML convective parameterization runs stably and accurately captures important climate statistics including precipitation extremes without the need for special training on extremes. Climate change between a control climate and a warm climate is not captured if the ML parameterization is only trained on the control climate, but it is captured if the training includes samples from both climates. Remarkably, climate change is also captured when training only on the warm climate, and this is because the extratropics of the warm climate provides training samples for the tropics of the control climate. In addition to being potentially useful for the simulation of climate, we show that ML parameterizations can be interrogated to provide diagnostics of the interaction between convection and the large-scale environment.
+  </details>         
          
+
          
          
          
