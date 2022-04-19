@@ -517,6 +517,13 @@ an improved bias-correction of 36.67%.
   </details>         
          
 
+- [A Machine Learning Assisted Development of a Model for the Populations of Convective and Stratiform Clouds](https://doi.org/10.1029/2019MS001798)
+     <details>
+  <summary><b>Abstract</b></summary>
+  
+  >Traditional parameterizations of the interaction between convection and the environment have relied on an assumption that the slowly varying large-scale environment is in statistical equilibrium with a large number of small and short-lived convective clouds. They fail to capture nonequilibrium transitions such as the diurnal cycle and the formation of mesoscale convective systems as well as observed precipitation statistics and extremes. Informed by analysis of radar observations, cloud-permitting model simulation, theory, and machine learning, this work presents a new stochastic cloud population dynamics model for characterizing the interactions between convective and stratiform clouds, with the goal of informing the representation of these interactions in global climate models. Fifteen wet seasons of precipitating cloud observations by a C-band radar at Darwin, Australia are fed into a machine learning algorithm to obtain transition functions that close a set of coupled equations relating large-scale forcing, mass flux, the convective cell size distribution, and the stratiform area. Under realistic large-scale forcing, the derived transition functions show that, on the one hand, interactions with stratiform clouds act to dampen the variability in the size and number of convective cells and therefore in the convective mass flux. On the other, for a given convective area fraction, a larger number of smaller cells is more favorable for the growth of stratiform area than a smaller number of larger cells. The combination of these two factors gives rise to solutions with a few convective cells embedded in a large stratiform area, reminiscent of mesoscale convective systems.
+  </details>  
+         
          
          
          
