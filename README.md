@@ -15,7 +15,6 @@ If you have any comments or suggestions for additions or improvements for this r
 
 If you find these resources useful, please give this repository a star ⭐️. 
 
-
  <h3 align="center">Connect with me on:</h3>
  <p align="center">
       <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
